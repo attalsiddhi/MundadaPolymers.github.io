@@ -161,7 +161,7 @@ h2.section-heading::before {
     /* background-color: #7986cb; */
     background-color: rgb(62 64 149 / 80%);
     color: #eeeeee;
-    /* border-top: 5px solid #84BD5A; */
+    border-top: 5px solid #fece83;
     padding-top: 50px;
     margin-top: 100px;
 }
