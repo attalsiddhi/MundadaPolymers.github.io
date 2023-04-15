@@ -273,3 +273,140 @@ h2.section-heading::before {
 .info_icon h2{
     color: #012970;
 }
+
+
+/* CONTACT US HEAD SECTION */
+.contact_head {
+    background: #3e4095;
+    margin-top: 100px;
+}
+.contact_head .cust_head_product{
+align-items: center;
+justify-content: center;
+display: flex;
+padding: 100px;
+font-size: 25px;
+}
+.contact_head .cust_head_product a{
+    text-decoration: none;
+    color: #fff;
+}
+.breadcrumb-item.active {
+color:  #fff;
+}
+.contact_body .custome_size{
+height: 220px;
+}
+.contact_body .custome_size:hover{
+cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+.contact_head .cust_head_product{
+font-size: 18px;
+}
+}
+
+
+/* CLIENTELE HEAD SECTION */
+.client_head {
+    background: #3e4095;
+    margin-top: 100px;
+}
+.client_head .cust_head_product{
+align-items: center;
+justify-content: center;
+display: flex;
+padding: 100px;
+font-size: 25px;
+}
+.client_head .cust_head_product a{
+    text-decoration: none;
+    color: #fff;
+}
+.breadcrumb-item.active {
+color:  #fff;
+}
+@media only screen and (max-width: 600px) {
+.contact_head .cust_head_product{
+font-size: 20px;
+}
+}
+
+.client_body img{
+width: 100%;
+height: 100px;
+}
+
+/* ABOUT US HEAD SECTION */
+.about_head {
+    background: #3e4095;
+    margin-top: 100px;
+}
+.about_head .cust_head_product{
+align-items: center;
+justify-content: center;
+display: flex;
+padding: 100px;
+font-size: 25px;
+}
+.about_head .cust_head_product a{
+    text-decoration: none;
+    color: #fff;
+}
+.breadcrumb-item.active {
+color:  #fff;
+}
+
+@media only screen and (max-width: 600px) {
+.about_head .cust_head_product{
+font-size: 20px;
+}
+}
+
+
+/* PRODUCT PAGE CSS */
+.prouct_head {
+    background: #3e4095;
+    margin-top: 100px;
+}
+.prouct_head .cust_head_product{
+align-items: center;
+justify-content: center;
+display: flex;
+padding: 100px;
+font-size: 25px;
+}
+.prouct_head .cust_head_product a{
+    text-decoration: none;
+    color: #fff;
+}
+.breadcrumb-item.active {
+color:  #fff;
+}
+@media only screen and (max-width: 600px) {
+.prouct_head .cust_head_product{
+font-size: 20px;
+}
+}
+
+/* pop */
+.modal-body h5{
+color: #3e4095;
+}
+
+
+
+/* POPUP */
+.modal .modal-dialog{
+max-width: 875px;
+}
+.mod-info{
+text-align: center;
+/* margin-top: 30%; */
+
+}
+@media only screen and (max-width:450px){ 
+.mod-info{
+display: none;
+}
+}
