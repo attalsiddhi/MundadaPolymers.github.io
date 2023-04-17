@@ -1,4 +1,6 @@
-/* NAVBAR */
+/*-----------------
+# START OF NAVBAR
+------------------- */
 .head .logo{
     height: 80px;
 }
@@ -51,8 +53,11 @@
     background-color: #00afef;
     color: #3e4095;
 }
+/* END OF NAVBAR */
 
-/* BANNER */
+/* ---------------
+# START OF BANNER
+------------------- */
 .banner{
     margin-top: 100px;
     margin-bottom: 50px;
@@ -89,9 +94,12 @@
     background-color: #00afef;
     color: #3e4095;
 }
+/* END OF BANNER */
 
 
-/* OUR PRODUCT */
+/*---------------------
+# START OF OUR PRODUCT 
+-----------------------*/
 .product {
     padding: 100px 0;
 }
@@ -110,54 +118,23 @@ h2.section-heading::before {
     bottom: -10px;
     border-radius: 5px;
 }
+/* END OF OUR PRODUCT SECTION */
 
 
-/* SLIDER SECTION */
-/* .slider img{
-    height: 100vh;
-} */
-/* responsive */
-/* @media only screen and (max-width: 600px) {
-    .slider img{
-        height: 50vh;
-    }
-  } */
-
+/* -----------------------
+# START OF SLIDING IMAGE 
+--------------------------*/
   .slider img{
     height: 80vh;
     margin-top: 125px;
   }
+  /* END OF SLIDING IMAGE */
 
 
 
-  /* REVIEWS */
-.reviews-section {
-    padding: 100px 0;
-}
-.reviews-section .custom_review .base{
-    background-color: rgb(235 235 253); 
-    letter-spacing: 1px; 
-    font-family: 'Roboto', sans-serif;
-}
-.reviews-section .custom_review i{
-        color: #00afef;
-        font-size: 35px;
-}
-.reviews-section .custom_review p{
-    font-size: 19px;
-    color: #888;
-    line-height: 1.8;
-    margin-bottom: 30px;
-}
-.reviews-section .custom_review h5{
-    font-size: 22px;
-    color: #3e4095;
-    font-weight: bold;
-    margin-left: 10px;
-}
-
-
-  /* FOOTER */
+  /*-----------------------
+  # START OF FOOTER 
+  ------------------------*/
 .footer{
     /* background-color: #7986cb; */
     background-color: rgb(62 64 149 / 80%);
@@ -193,36 +170,30 @@ h2.section-heading::before {
     margin: 10px;
     color: #eeeeee;
 }
-/* .footer ul{
-    justify-content: center;
-    display: grid;
-} */
 @media only screen and (min-width: 990px) {
     .footer ul{
         justify-content: center;
         display: grid;
     }
   }
-/* .footer{
-    background: url(img/footer-bg.jpg) no-repeat;
-    background-size: 100% 100%;
-} */
-/* @media only screen and (max-width: 600px) {
-.banner{
-    height: 100vh;
-}
-} */
+/* END OF FOOTER */
 
-/* INFORMATION SECTION */
+
+/*----------------------------------
+# START OF INFORMATION SECTION 
+----------------------------------*/
 .info_bg i {
     font-size: 30px;
     background-color: #00afef;
     color: #3e4095;
     padding: 15px;
 }
+/* END OF INFORMATION SECTION */
 
 
-/* CARD */
+/*---------------------
+# OUR PRODUCT CARD 
+----------------------*/
 .crd{
     margin: 20px 0px 20px 0px;
 }
@@ -254,7 +225,9 @@ h2.section-heading::before {
 }
 
 
-/* INFORMAYION WITH ICON */
+/*-----------------------------
+# INFORMAYION WITH ICON 
+-----------------------------*/
 .info_icon i{
     font-size: 44px;
     line-height: 44px;
@@ -274,9 +247,17 @@ h2.section-heading::before {
 .info_icon h2{
     color: #012970;
 }
+/* END OF INFORMATION WITH ICON */
 
 
-/* CONTACT US HEAD SECTION */
+
+/*-------------------
+ OTHER PAGES CSS 
+ -------------------*/
+
+/*--------------------------
+# CONTACT US HEAD SECTION 
+----------------------------*/
 .contact_head {
     background: #3e4095;
     margin-top: 100px;
@@ -306,9 +287,12 @@ cursor: pointer;
 font-size: 18px;
 }
 }
+/* END OF CONTACT US PAGE */
 
 
-/* CLIENTELE HEAD SECTION */
+/* ------------------------
+# CLIENTELE HEAD SECTION 
+---------------------------*/
 .client_head {
     background: #3e4095;
     margin-top: 100px;
@@ -332,13 +316,16 @@ color:  #fff;
 font-size: 20px;
 }
 }
-
 .client_body img{
 width: 100%;
 height: 100px;
 }
+/* END OF CLIENTELE PAGE */
 
-/* ABOUT US HEAD SECTION */
+
+/*-------------------------
+# ABOUT US HEAD SECTION 
+-----------------------------*/
 .about_head {
     background: #3e4095;
     margin-top: 100px;
@@ -363,9 +350,12 @@ color:  #fff;
 font-size: 20px;
 }
 }
+/* END OF ABOUT US PAGE */
 
 
-/* PRODUCT PAGE CSS */
+/*------------------------
+# PRODUCT PAGE CSS 
+-------------------------*/
 .prouct_head {
     background: #3e4095;
     margin-top: 100px;
@@ -390,14 +380,10 @@ font-size: 20px;
 }
 }
 
-/* pop */
+/* POPUP */
 .modal-body h5{
 color: #3e4095;
 }
-
-
-
-/* POPUP */
 .modal .modal-dialog{
 max-width: 875px;
 }
@@ -411,3 +397,5 @@ text-align: center;
 display: none;
 }
 }
+
+/* END OF PRODUCT PAGE */
