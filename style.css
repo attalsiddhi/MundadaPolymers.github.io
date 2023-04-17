@@ -128,6 +128,11 @@ h2.section-heading::before {
     height: 80vh;
     margin-top: 125px;
   }
+  @media only screen and (max-width:400px){ 
+    .slider img{
+        height: 50vh;
+      }
+}
   /* END OF SLIDING IMAGE */
 
 
